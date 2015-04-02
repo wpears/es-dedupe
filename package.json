@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "preinstall": "npm install git+https://github.com/wpears/JSONStream.git"
   },
   "repository": {
     "type": "git",
