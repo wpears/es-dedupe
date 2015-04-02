@@ -1,0 +1,33 @@
+{
+  "name": "es-dedupe",
+  "version": "0.0.1",
+  "description": "Deduplication of elasticsearch documents via commandline",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wpears/es-dedupe.git"
+  },
+  "keywords": [
+    "deduplication",
+    "elasticsearch"
+  ],
+  "author": "Wyatt Pearsall <wyatt.pearsall@cfpb.gov>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpears/es-dedupe/issues"
+  },
+  "homepage": "https://github.com/wpears/es-dedupe",
+  "dependencies": {
+    "request": "^2.54.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "tape": "^3.5.0"
+  }
+}
